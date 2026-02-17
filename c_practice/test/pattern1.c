@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+	int i,j,n,k=0;
+	printf("Enter no.of rows required:");
+	scanf("%d",&n);
+	for(i=0;i<n;i++){
+		for(j=0;j<=i;j++){
+			k++;
+			printf("%d ",k);
+		}
+		printf("\n");
+	}
+}
+
