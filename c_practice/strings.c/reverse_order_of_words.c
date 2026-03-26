@@ -24,7 +24,7 @@ int main(){
 			
 			}
 			start=i+1;
-		}
+			}
 	}
 
 
